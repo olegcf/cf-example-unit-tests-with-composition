@@ -9,7 +9,7 @@ steps:
     description: "Cloning main repository..."
     repo: "codefreshdemo/cf-example-unit-tests-with-composition"
     revision: "master"
-    git: github
+    git: Codefresh
     stage: prepare
   build_test_image:
     title: "Building Test Docker Image"
