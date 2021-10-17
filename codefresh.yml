@@ -7,7 +7,7 @@ steps:
   main_clone:
     type: "git-clone"
     description: "Cloning main repository..."
-    repo: "git@github.com:olegcf/cf-example-unit-tests-with-composition.git"
+    repo: "olegcf/cf-example-unit-tests-with-composition.git"
     revision: "master"
     git: Codefresh
     stage: prepare
